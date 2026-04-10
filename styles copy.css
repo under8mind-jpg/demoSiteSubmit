@@ -1,4 +1,3 @@
- /* GLOBAL STYLES & RESET___________________________ */
  * {
      font-family: 'open sans';
      margin: 0;
@@ -6,8 +5,6 @@
      box-sizing: border-box;
  }
 
-/* NAVIGATION & HEADER STYLES___________________________ */
-/* Navigation links styling___________________________ */
 header nav div ul li a {
     color: black;
     text-decoration: none;
@@ -15,13 +12,11 @@ header nav div ul li a {
     transition: color 0.3s ease;
 }
 
-/* Navigation list items___________________________ */
 header nav div ul li {
     display: flex;
     list-style: none;
 }
 
-/* Navigation unordered list container___________________________ */
 header nav div ul {
     display: flex;
     gap: 30px;
@@ -29,7 +24,6 @@ header nav div ul {
     align-items: center;
 }
 
-/* Main header container with logo and navigation___________________________ */
 .mainhead {
     display: flex;
     justify-content: space-around;
@@ -38,7 +32,6 @@ header nav div ul {
     padding: 20px 0;
 }
 
-/* Logo container___________________________ */
 nav div span {
     display: flex;
     justify-content: center;
@@ -49,7 +42,6 @@ nav div span {
     height: 61px;
 }
 
-/* Orange 'r' in logo___________________________ */
 nav div span span {
     color: #FD6E0A;
     display: inline-flex;
@@ -57,7 +49,6 @@ nav div span span {
     width: 23px;
 }
 
-/* ABOUT ME SECTION___________________________ */
 .aboutMe {
     position: relative;
     top: 10%;
@@ -69,13 +60,11 @@ nav div span span {
     border-radius: 8px;
 }
 
-/* About me section title___________________________ */
 .aboutMe_title {
     text-align: center;
     padding-top: 100px;
 }
 
-/* About me paragraph container___________________________ */
 .aboutMe_paragraph {
     display: flex;
     justify-content: center;
@@ -84,7 +73,6 @@ nav div span span {
     color: #757575;
 }
 
-/* About me paragraph text___________________________ */
 .aboutMe_paragraph p {
     text-align: center;
     font-size: 18px;
@@ -92,14 +80,12 @@ nav div span span {
     max-width: 800px;
 }
 
-/* WHAT I DO SECTION___________________________ */
 .WhatIdo {
     max-width: 1332.58px;
     margin: 0 auto;
     padding: 0;
 }
 
-/* What I do section title___________________________ */
 .WhatIdo_Titile {
     text-align: center;
     padding-top: 50px;
@@ -108,7 +94,6 @@ nav div span span {
     color: #181818;
 }
 
-/* What I do section description___________________________ */
 .WhatIdo_Paragraph {
     text-align: center;
     padding-top: 5px;
@@ -121,7 +106,6 @@ nav div span span {
     line-height: 1.6;
 }
 
-/* RESUME SECTION___________________________ */
 .resume {
     background: transparent;
     padding-left: 200px ;
@@ -131,13 +115,11 @@ nav div span span {
     margin: 0 auto;
 }
 
-/* Resume section heading___________________________ */
 .headingResume {
     text-align: center;
     margin-bottom: 60px;
 }
 
-/* Resume main title___________________________ */
 .headingResume h1 {
     font-size: 35px;
     font-weight: 600;
@@ -146,7 +128,6 @@ nav div span span {
     padding-top:30px;
 }
 
-/* Two-column layout for education and experience___________________________ */
 .resume-content {
     display: flex;
     justify-content: space-between;
@@ -156,14 +137,12 @@ nav div span span {
     padding: 0;
 }
 
-/* Individual resume columns (Education & Experience)___________________________ */
 .resume-column {
   
     max-width: 540px;
     padding: 0 20px;
 }
 
-/* Column headings (My Education, My Experience)___________________________ */
 .resume-column h2 {
     font-size: 25px;
     font-weight: 600;
@@ -171,7 +150,6 @@ nav div span span {
     margin-bottom: 30px;
 }
 
-/* Individual resume items (jobs, education entries)___________________________ */
 .resume-item {
     margin-bottom: 30px;
     padding-left: 0;
@@ -180,7 +158,6 @@ nav div span span {
     border-bottom: 1px solid #E0E0E0;
 }
 
-/* Job/education title___________________________ */
 .resume-item h3 {
     font-size: 20px;
     font-weight: 600;
@@ -188,7 +165,6 @@ nav div span span {
     margin: 0 0 8px 0;
 }
 
-/* Time period and company/university___________________________ */
 .resume-period {
     font-size: 16px;
     color: #181818;
@@ -196,7 +172,6 @@ nav div span span {
     margin: 0 0 15px 0;
 }
 
-/* Description text___________________________ */
 .resume-description {
     font-size: 16px;
     color: #757575;
@@ -204,13 +179,11 @@ nav div span span {
     margin: 0;
 }
 
-/* Remove bottom border from last item in right column___________________________ */
 .resume-column:last-child .resume-item:last-child {
     border-bottom: none;
     padding-bottom: 0;
 }
 
-/* Remove bottom border from last item in left column___________________________ */
 .resume-column:first-child .resume-item:last-child {
     border-bottom: none;
     padding-bottom: 0;
@@ -218,8 +191,7 @@ nav div span span {
 
 
 
-/* FOOTER SECTION___________________________ */
- footer {
+footer {
      height: 780px;
      background: #FFF8F3;
      max-width: 1332.58px;
@@ -227,9 +199,6 @@ nav div span span {
      padding: 60px 40px;
  }
 
-/* BUTTONS & INTERACTIVE ELEMENTS___________________________ */
-
-/* Download CV button styling___________________________ */
  .dlBtn {
     background-color: #FD6E0A;
     color: #FFFFFF;
@@ -246,19 +215,16 @@ nav div span span {
     transition: background-color 0.3s ease;
 }
 
-/* Download CV button hover effect___________________________ */
 .dlBtn:hover {
     background-color: #E55A00;
 }
 
-/* Download icon styling___________________________ */
 .dlBtn img {
     width: 20px;
     height: 20px;
     filter: brightness(0) invert(1);
 }
 
-/* Button container for proper spacing___________________________ */
 .button_box {
     background: transparent;
     width: 100%;
@@ -270,8 +236,6 @@ nav div span span {
     padding-top: 30px;
 }
 
-/* FOOTER CONTENT STYLES___________________________ */
-/* Two-column layout for footer content___________________________ */
 .footer-content {
     display: flex;
     justify-content: space-between;
@@ -280,13 +244,11 @@ nav div span span {
     margin: 0 auto;
 }
 
-/* Footer columns - equal width___________________________ */
 .form, .contract {
     flex: 1;
     max-width: 540px;
 }
 
-/* Footer section headings___________________________ */
 .form h1, .contract h1 {
     font-size: 28px;
     font-weight: 600;
@@ -294,7 +256,6 @@ nav div span span {
     margin-bottom: 20px;
 }
 
-/* Form input fields styling___________________________ */
 .form input {
     width: 100%;
     padding: 15px;
@@ -306,20 +267,28 @@ nav div span span {
     transition: border-color 0.3s ease;
 }
 
-/* Form input placeholder text___________________________ */
 .form input::placeholder {
     color: #999999;
-    padding-top: 10px;
+    
 }
 
 form > input:nth-child(3){
+    height:250px;
+    vertical-align: top;   
 
+    /* vertical-align: top is used to align verticaly the text */
 
-    height:350px;
-
+    text-align: left;
+    padding-top: 10px;
 }
 
-/* Form submit button___________________________ */
+form > input:nth-child(3)::placeholder {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    transform: translateY(0);
+}
+
 .Submit {
     background-color: #FD6E0A;
     color: #FFFFFF;
@@ -332,12 +301,10 @@ form > input:nth-child(3){
     transition: background-color 0.3s ease;
 }
 
-/* Submit button hover effect___________________________ */
 .Submit:hover {
     background-color: #E55A00;
 }
 
-/* Contact section description text___________________________ */
 .contract p {
     font-size: 16px;
     color: #757575;
@@ -345,13 +312,11 @@ form > input:nth-child(3){
     margin-bottom: 30px;
 }
 
-/* Social media icons container___________________________ */
 .icons {
     display: flex;
     gap: 20px;
 }
 
-/* Individual social media icons___________________________ */
 .icons img {
     width: 40px;
     height: 40px;
@@ -359,451 +324,208 @@ form > input:nth-child(3){
     cursor: pointer;
 }
 
-/* Social media icon hover effect___________________________ */
 .icons img:hover {
     transform: scale(1.1);
 }
 
-
-
- /* Target the <a> tag that is the 2nd child of <li>___________________________ */
- ul li:nth-child(3) a {
-     background: #FD6E0A;
-     color: #f4f4f4;
-     border-radius: 5px;
-
-     font-size: 20px;
-
-     font-weight: bold;
-     padding: 10px;
-
-
-
- }
-
-
-
-
- .homeSection {
-
-
-
-
-     height: 676px;
-
-     background-color: #FFF8F3;
-
-     position: relative;
-
-     display: flex;
-
-     max-width: 1332.58px;
-
-
-
-
-
- }
-
- .header_bg {
-
-
-     display: flex;
-     align-items: center;
-
-
-     position: absolute;
-
-     width: 836px;
-
-     height: 520px;
-
-     padding-left: 22%;
-
-     top: 23%;
-
-
-
-
-
-
-     font-family: 'Oswald', sans-serif;
-
-     font-size: 45px;
-
-     color: #474747
- }
-
- .hardy {
-
-
-     display: flex;
-     align-items: center;
-
-
-     position: absolute;
-
-     max-width: 1332.58px;
-
-     height: 538px;
-
-     padding-left: 40%;
-
-     top: 10%;
-
-
-
-
-
-
-     font-family: 'Oswald', sans-serif;
-
-     font-size: 45px;
-
-     color: #474747
- }
-
-
-
-
- .vertical_text {
-
-
-     position: relative;
-
-
-
-     writing-mode: vertical-rl;
-
-
-
-     text-align: center;
-
-
-
-     height: 100%;
-
-
-     left: 1%;
-
-     rotate: 180deg;
-
-     letter-spacing: 15px;
-
-     font-size: 100px;
-
-     font-family: 'open sans';
-
-
-     font-weight: bold;
-
-     color: hsla(0, 0%, 9%, 0.39);
-
-
-     bottom: 10%;
-
-
-
-
-
-
-
-
-
-
-
- }
-
-
-
- .greeting {
-
-     display: flex;
-     align-items: center;
-
-
-     position: absolute;
-
-     max-width: 1332.58px;
-
-     height: 676px;
-
-     padding-left: 5%;
-
-     top: -25%;
-
-
-
-
-
-
-     font-family: 'Oswald', sans-serif;
-
-     font-size: 45px;
-
-     color: #474747
- }
-
-
-
-
-
- .name {
-
-     display: flex;
-     align-items: center;
-
-
-     position: absolute;
-
-     max-width: 1332.58px;
-
-     height: 676px;
-
-     padding-left: 5%;
-     top: -10%;
-
-
-
-
-
-     font-family: 'Oswald', sans-serif;
-
-     font-size: 45px;
-
-     color: 181818
- }
-
-
- .paragraph {
-
-     display: flex;
-     align-items: center;
-
-
-     position: absolute;
-
-     width: 550px;
-
-     height: 676px;
-
-     padding-left: 5%;
-     top: 5%;
-
-     padding-right: 20px;
-
-     flex-wrap: wrap;
-
-
-
- }
-
-
-
-
- .paragraph p {
-
-     font-family: 'Oswald', sans-serif;
-
-     font-size: 18px;
-
-     color: #181818;
-
-     width: 585 px;
-
-
-
-
-     position: relative;
-
-
-
-
-
- }
-
- .btn1 {
-
-     display: flex;
-     align-items: center;
-
-
-     position: absolute;
-
-
-     left: 15%;
-     top: 65%;
-
-     margin: 5px;
-
-     flex-wrap: wrap;
-
-     width: 200px;
-     Height: 64px;
-
-     border-radius: 5px;
-
-     background-color: #FD6E0A;
-     border: none;
-     color: #f4f4f4;
-
-     font-size: 18px;
-
-     text-align: center;
-
-     padding-right: 20px;
-
-
-
-
- }
-
- .btn2 {
-
-     display: flex;
-     align-items: center;
-
-
-     position: absolute;
-
-
-     left: 32%;
-     top: 65%;
-
-     margin: 5px;
-
-     flex-wrap: wrap;
-
-     width: 160px;
-     Height: 64px;
-
-     background-color: transparent;
-     border-radius: 5px;
-
-     border: 1px solid #FD6E0A;
-
-     color: #FD6E0A;
-
-     font-weight: bold;
-
-     font-size: 18px;
-
-     padding-right: 20px;
-
-
-
-
-
-
-
- }
-
-
-
- .btn2,
- .btn1 {
-
-
-
-     display: flex;
-     justify-content: center;
-     align-items: center;
-
-
- }
-
- .all-buttons {
-
-     display: flex;
-
-     gap: 10px;
-
-
-
-
- }
-
- .btn1 img {
-
-
-     width: 30px;
-
-     height: 30px;
-
-     margin: 10px;
-
-     color: orangered;
-
-     filter: brightness(0) invert(1);
-
-
-
- }
-
-
- .btn2 img {
-
-
-     width: 30px;
-
-     height: 30px;
-
-     margin: 10px;
-
-     color: rgb(255, 165, 0);
-
-
-
- }
-
- body {
-     overflow-y: auto;
-     /* up-down allowed */
-     overflow-x: hidden;
-     /* left-right blocked */
- }
-
-
-
- .info_box,
- .info_box2,
- .info_box3,
- .info_box4 {
-
-     height: 118px;
-     width: 160px;
-     text-align: center;
-
-
-
- }
-
- .all_infoBox {
-
-     display: flex;
-     gap: 20px;
-     justify-content: center;
-     align-items: center;
-
-
-
-
- }
-
- .all_infoBox span {
-
-     font-weight: bold;
-
-
-
-
-
-
- }
-
- .all_infoBox p {
-
-
+ul li:nth-child(3) a {
+    background: #FD6E0A;
+    color: #f4f4f4;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.homeSection {
+    height: 676px;
+    background-color: #FFF8F3;
+    position: relative;
+    display: flex;
+    max-width: 1332.58px;
+}
+
+.header_bg {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 836px;
+    height: 520px;
+    padding-left: 22%;
+    top: 23%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    color: #474747
+}
+
+.hardy {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    max-width: 1332.58px;
+    height: 538px;
+    padding-left: 40%;
+    top: 10%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    color: #474747
+}
+
+.vertical_text {
+    position: relative;
+    writing-mode: vertical-rl;
+    text-align: center;
+    height: 100%;
+    left: 1%;
+    rotate: 180deg;
+    letter-spacing: 15px;
+    font-size: 100px;
+    font-family: 'open sans';
+    font-weight: bold;
+    color: hsla(0, 0%, 9%, 0.39);
+    bottom: 10%;
+}
+
+.greeting {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    max-width: 1332.58px;
+    height: 676px;
+    padding-left: 5%;
+    top: -25%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    color: #474747
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    max-width: 1332.58px;
+    height: 676px;
+    padding-left: 5%;
+    top: -10%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    color: #181818;
+}
+
+.paragraph {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 550px;
+    height: 676px;
+    padding-left: 5%;
+    top: 5%;
+    padding-right: 20px;
+    flex-wrap: wrap;
+}
+
+.paragraph p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #181818;
+    width: 585px;
+    position: relative;
+}
+
+.btn1 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 15%;
+    top: 65%;
+    margin: 5px;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: none;
+    color: #f4f4f4;
+    font-size: 18px;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.btn2 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 32%;
+    top: 65%;
+    margin: 5px;
+    flex-wrap: wrap;
+    width: 160px;
+    height: 64px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+.btn2, .btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn1 img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    color: orangered;
+    filter: brightness(0) invert(1);
+}
+
+.btn2 img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    color: rgb(255, 165, 0);
+}
+
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.info_box, .info_box2, .info_box3, .info_box4 {
+    height: 118px;
+    width: 160px;
+    text-align: center;
+   
+}
+
+.all_infoBox {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 0%;
+
+    
+  
+}
+
+
+
+
+
+section {
+    max-width: 1332.58px;
      color: #757575;
 
 
@@ -849,14 +571,13 @@ form > input:nth-child(3){
  }
 
 
- /* info boxes */
-
-.all_infoBox{
+ .all_infoBox{
     display:flex;
     justify-content:center;
     gap:30px;
     flex-wrap:wrap;
-    margin-top:40px;
+    margin:40px auto 0 auto;
+    width:100%;
 }
 
 .all_infoBox div{
@@ -866,8 +587,6 @@ form > input:nth-child(3){
 .all_infoBox span{
     font-weight:bold;
 }
-
-/* What I do___________________________ */
 
 .WhatIdo{
     width:100%;
@@ -886,9 +605,6 @@ form > input:nth-child(3){
     color:#757575;
     line-height:1.7;
 }
-
-/* cards____________________ */
-/* cards */
 
 .box_all_cards{
     width:100%;

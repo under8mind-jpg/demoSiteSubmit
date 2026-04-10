@@ -505,6 +505,7 @@ body {
     height: 118px;
     width: 160px;
     text-align: center;
+   
 }
 
 .all_infoBox {
@@ -513,8 +514,15 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 10%;
+    right: 0%;
+
+    
+  
 }
+
+
+
+
 
 section {
     max-width: 1332.58px;
@@ -568,7 +576,8 @@ section {
     justify-content:center;
     gap:30px;
     flex-wrap:wrap;
-    margin-top:40px;
+    margin:40px auto 0 auto;
+    width:100%;
 }
 
 .all_infoBox div{
